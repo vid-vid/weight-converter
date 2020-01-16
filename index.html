@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weigh</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" >
+                <div class="text-center display-3">
+                        weight converter
+                    <form>
+                        <div class="form">
+                            <input type="number" id="num" class="form-control-lg" placeholder="enter your num ...">
+                        </div>
+                    </form>
+
+                  <div id="output">
+                    <div class=" card bg-primary mb-2 mt-2">
+                        <div class="card-block ">
+                            <h6>gram</h6><h6 id="gram">0.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="card bg-danger mb-2">
+                            <div class="card-block ">
+                                <h6>kilogram</h6><h6 id="kilogram">0.00</h6>
+                            </div>
+                        </div>
+
+                        <div class="card bg-success mb-2">
+                                <div class="card-block ">
+                                    <h6>ounce</h6><h6 id="ounce">0.00</h6>
+                                </div>
+                            </div>
+                           </div>
+                            
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./app.js"></script>
+
+</html>

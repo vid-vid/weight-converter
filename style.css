@@ -1,0 +1,11 @@
+body{
+
+    margin-top: 70px;
+    background-color: darkslategrey;
+    color: floralwhite;
+}
+
+.form-control-lg {
+    width: 100%;
+}
+
